@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Doce Geografia Brasileira - Sul</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #00BFFF;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .bloco {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .imagem {
+      flex: 1;
+    }
+
+    .imagem img {
+      max-width: 70%;
+      height: auto;
+      border-radius: 30px;
+    }
+
+    .conteudo {
+      flex: 1;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #00BFFF;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="projeto.html" style="color: inherit; text-decoration: none; display: inline-block; user-select: none;" aria-label="Voltar para a página inicial">
+        🌍
+    </a>
+    DOCE GEOGRAFIA BRASILEIRA
+  </header>
+
+  <main>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://www.becel.com.br/-/media/Project/Upfield/Brands/Becel-NL/Becel-BR/Assets/Recipes/15ad216e-f427-4223-b9b9-2510d8975c54.jpg?rev=5064c352f636426d812030f272255264&w=900" alt="Cuca de Banana">
+      </div>
+      <div class="conteudo">
+        <h3>Cuca de Banana</h3>
+        <p>Bolo típico do Sul com cobertura farofinha e sabor marcante de banana.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>2 xícaras de farinha de trigo</li>
+          <li>1 xícara de açúcar</li>
+          <li>3 bananas maduras em rodelas</li>
+          <li>2 ovos</li>
+          <li>1/2 xícara de leite</li>
+          <li>2 colheres de sopa de manteiga</li>
+          <li>1 colher de sopa de fermento</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Misture os ingredientes da massa e despeje em forma untada.</li>
+          <li>Distribua as bananas por cima da massa.</li>
+          <li>Prepare uma farofa com açúcar, farinha e manteiga e cubra.</li>
+          <li>Asse em forno médio (180°C) por cerca de 40 minutos.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Ambrosia_%28dessert%29.jpg" alt="Ambrosia Gaúcha">
+      </div>
+      <div class="conteudo">
+        <h3>Ambrosia Gaúcha</h3>
+        <p>Doce de ovos e leite, típico da culinária gaúcha, servido frio.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>1 litro de leite</li>
+          <li>2 xícaras de açúcar</li>
+          <li>6 ovos</li>
+          <li>1 colher de chá de canela em pó</li>
+          <li>Cravo-da-índia (opcional)</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Bata os ovos ligeiramente e misture com o leite e o açúcar.</li>
+          <li>Leve ao fogo baixo sem mexer, apenas virando de vez em quando para dourar os pedaços.</li>
+          <li>Deixe cozinhar até reduzir e formar textura cremosa com grumos.</li>
+          <li>Sirva gelado, polvilhado com canela.</li>
+        </ol>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2025 - PROJETO DOCE GEOGRAFIA BRASILEIRA
+  </footer>
+
+</body>
+</html>
