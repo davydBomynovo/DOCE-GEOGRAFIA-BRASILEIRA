@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Interativo do Brasil - Norte</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #2E8B57;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .bloco {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .imagem {
+      flex: 1;
+    }
+
+    .imagem img {
+      max-width: 70%;
+      height: auto;
+      border-radius: 30px;
+    }
+
+    .conteudo {
+      flex: 1;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #2E8B57;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="projeto.html" style="color: inherit; text-decoration: none; display: inline-block; user-select: none;" aria-label="Voltar para a página inicial">
+        🌍
+    </a>
+    DOCE GEOGRAFIA BRASILEIRA
+</header>
+
+  <main>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://www.receiteria.com.br/wp-content/uploads/mousse-de-cupuacu-1.jpg" alt="Cupuaçu">
+      </div>
+      <div class="conteudo">
+        <h3>Doce de Cupuaçu</h3>
+        <p>Fruto amazônico usado em doces cremosos e refrescantes.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>½ xícara de polpa de cupuaçu</li>
+          <li>1 lata de leite condensado</li>
+          <li>½ lata de creme de leite</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Bata tudo no liquidificador por 2 minutos.</li>
+          <li>Despeje em potes e leve à geladeira por 3 horas.</li>
+          <li>Sirva gelado e decore com raspas de cupuaçu.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://www.receiteria.com.br/wp-content/uploads/bolo-de-macaxeira-730x548.jpeg" alt="Bolo de Macaxeira">
+      </div>
+      <div class="conteudo">
+        <h3>Bolo de Macaxeira</h3>
+        <p>Também conhecido como bolo de aipim, é típico da região Norte e feito com mandioca ralada.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>1 kg de macaxeira (aipim/mandioca) ralada</li>
+          <li>2 xícaras de açúcar</li>
+          <li>3 ovos</li>
+          <li>3 colheres de sopa de manteiga</li>
+          <li>200 ml de leite de coco</li>
+          <li>1 pitada de sal</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Rale a macaxeira e esprema para retirar o excesso de líquido.</li>
+          <li>Em uma tigela, misture todos os ingredientes até formar uma massa homogênea.</li>
+          <li>Despeje em uma forma untada.</li>
+          <li>Leve ao forno preaquecido a 180°C por cerca de 40 a 50 minutos ou até dourar.</li>
+          <li>Espere esfriar e sirva.</li>
+        </ol>
+      </div>
+    </div>
+</main>
+
+  <footer>
+    © 2025 - PROJETO DOCE GEOGRAFIA BRASILEIRA
+  </footer>
+
+</body>
+</html>
