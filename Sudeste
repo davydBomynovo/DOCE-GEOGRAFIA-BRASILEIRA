@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Doce Geografia Brasileira - Sudeste</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #F4A460;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    .bloco {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .imagem {
+      flex: 1;
+    }
+
+    .imagem img {
+      max-width: 70%;
+      height: auto;
+      border-radius: 30px;
+    }
+
+    .conteudo {
+      flex: 1;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #F4A460;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="projeto.html" style="color: inherit; text-decoration: none; display: inline-block; user-select: none;" aria-label="Voltar para a página inicial">
+        🌍
+    </a>
+    DOCE GEOGRAFIA BRASILEIRA
+  </header>
+
+  <main>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://www.tendaatacado.com.br/dicas/wp-content/uploads/2024/12/como-fazer-pao-de-mel-para-vender-topo.jpg" alt="Pão de Mel">
+      </div>
+      <div class="conteudo">
+        <h3>Pão de Mel</h3>
+        <p>Doce aromático e macio, recheado com doce de leite e coberto com chocolate.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>2 xícaras de farinha de trigo</li>
+          <li>1 xícara de mel</li>
+          <li>1 xícara de leite</li>
+          <li>½ xícara de açúcar mascavo</li>
+          <li>1 colher de chá de canela</li>
+          <li>1 colher de chá de cravo em pó</li>
+          <li>1 colher de sopa de cacau em pó</li>
+          <li>1 colher de sopa de fermento em pó</li>
+          <li>Doce de leite para rechear</li>
+          <li>Chocolate meio amargo para cobrir</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Misture os ingredientes secos e, depois, adicione o mel e o leite.</li>
+          <li>Mexa bem até formar uma massa lisa e homogênea.</li>
+          <li>Despeje em formas pequenas e leve ao forno por 20 minutos a 180°C.</li>
+          <li>Depois de frio, recheie com doce de leite e cubra com chocolate derretido.</li>
+          <li>Leve à geladeira até endurecer a cobertura.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="bloco">
+      <div class="imagem">
+        <img src="https://www.minhareceita.com.br/app/uploads/2022/01/quindim-tradicional-portal-minha-receita.jpg" alt="Quindim">
+      </div>
+      <div class="conteudo">
+        <h3>Quindim</h3>
+        <p>Doce brilhante e amarelinho feito com coco, gema e açúcar. Ícone do Sudeste.</p>
+        <strong>Ingredientes:</strong>
+        <ul>
+          <li>6 gemas peneiradas</li>
+          <li>1 ovo inteiro</li>
+          <li>1 xícara de açúcar</li>
+          <li>2 colheres de sopa de manteiga</li>
+          <li>1 xícara de coco ralado</li>
+        </ul>
+        <p><strong>Modo de preparo:</strong></p>
+        <ol>
+          <li>Misture bem todos os ingredientes com uma colher (sem bater muito).</li>
+          <li>Distribua em forminhas untadas com manteiga e açúcar.</li>
+          <li>Leve ao forno médio, em banho-maria, por cerca de 40 minutos.</li>
+          <li>Desenforme após esfriar e sirva gelado.</li>
+        </ol>
+      </div>
+    </div>
+</main>
+
+  <footer>
+    © 2025 - PROJETO DOCE GEOGRAFIA BRASILEIRA
+  </footer>
+
+</body>
+</html>
