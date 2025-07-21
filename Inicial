@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Interativo do Brasil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #2E8B57;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    main {
+      text-align: center;
+      padding: 20px;
+      min-height: calc(100vh - 140px);
+      box-sizing: border-box;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background-color: #2E8B57;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    .intro {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .legenda {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .botoes a {
+      display: inline-block;
+      margin: 10px 10px;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      color: black;
+    }
+
+    .btn-norte {
+      background-color: #2E8B57;
+    }
+
+    .btn-nordeste {
+      background-color: #FFF3A3;
+    }
+
+    .btn-centro {
+      background-color: #FFDAB9;
+    }
+
+    .btn-sudeste {
+      background-color: #F4A460;
+    }
+
+    .btn-sul {
+      background-color: #00BFFF;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    🌍 DOCE GEOGRAFIA BRASILEIRA
+  </header>
+
+  <main>
+
+    <img src="https://i.pinimg.com/1200x/43/77/93/43779374f8753d06a7c333d471f9b862.jpg" usemap="#mapaBrasil" width="500" alt="Mapa do Brasil">
+
+    <div class="botoes">
+      <a href="Norte.html" class="btn-norte">Norte</a>
+      <a href="Nordeste.html" class="btn-nordeste">Nordeste</a>
+      <a href="CentroOeste.html" class="btn-centro">CentroOeste</a>
+      <a href="Sudeste.html" class="btn-sudeste">Sudeste</a>
+      <a href="Sul.html" class="btn-sul">Sul</a>
+    </div>
+
+  </main>
+
+  <footer>
+    © 2025 - PROJETO DOCE GEOGRAFIA BRASILEIRA
+  </footer>
+
+</body>
+</html>
